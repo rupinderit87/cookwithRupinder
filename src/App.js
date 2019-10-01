@@ -8,9 +8,9 @@ class App extends Component {
   state = {
     recipes: recipes,
     url:
-      'https://www.food2fork.com/api/search?key=8cdf1793f844fc29f814093719d93807',
+      'https://www.food2fork.com/api/search?key=64422b1333ba4434a8a727d19cb3ac1e',
     base_url:
-      'https://www.food2fork.com/api/search?key=8cdf1793f844fc29f814093719d93807',
+      'https://www.food2fork.com/api/search?key=64422b1333ba4434a8a727d19cb3ac1e',
     details_id: 35375,
     pageIndex: 1,
     search: '',

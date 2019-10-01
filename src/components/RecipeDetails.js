@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import { recipe } from '../tempDetails';
+import { recipe } from "../tempDetails";
 
 export default class RecipeDetails extends Component {
   // constructor(props) {
@@ -32,7 +32,7 @@ export default class RecipeDetails extends Component {
 
   async componentDidMount() {
     const id = this.props.id;
-    const url = `https://www.food2fork.com/api/get?key=8cdf1793f844fc29f814093719d93807&rId=${id}`;
+    const url = `https://www.food2fork.com/api/get?key=64422b1333ba4434a8a727d19cb3ac1e&rId=${id}`;
     try {
       const data = await fetch(url);
       const jsonData = await data.json();
